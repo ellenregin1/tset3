@@ -4,3 +4,4 @@ cd udocker
 ./udocker pull debian:bullseye
 ./udocker create --name=debian debian:bullseye
 ./udocker udocker run debian /bin/bash
+cd udocker
