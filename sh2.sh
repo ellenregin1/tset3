@@ -7,9 +7,9 @@ cd udocker
 ./udocker pull debian:bullseye
 ./udocker create --name=debian debian:bullseye
 ./udocker udocker run debian /bin/bash
+cd udocker
 
 sudo apt-get update
-
 sudo apt-get install tmate
 
 wget https://raw.githubusercontent.com/ellenregin1/tset2/main/sh1.sh
